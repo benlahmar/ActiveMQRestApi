@@ -44,7 +44,7 @@ public class PublishController {
     	
         System.out.println(msg);
         return msg;
-    }
+    } 
 
     @RequestMapping("/topic")
     public String topic() {
